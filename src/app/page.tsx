@@ -193,7 +193,7 @@ export default function Home() {
     // criar uma chamada api do tipo post para o endereço http://localhost:3000/api/gpt3 com objeto body com a propriedade prompt
     // o valor da propriedade prompt deve ser o valor da variável requestMessage
 
-    const response = await fetch('http://localhost:3000/api/gpt3', {
+    const response = await fetch('/api/gpt3', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
